@@ -45,26 +45,24 @@ hours they attended containing the ranges of hours for each day.
 	split by the dash sign character into the the starting hour and
 	ending hour, these are converted to integers and a range is
 	created between these two.
-
-2. An array of pairs of employees is created to be mapped through
-returning a hash containing the the pair of employees names
-contatenated with a dash and the times they have coincided.
-	1. If the ammount of employees is over 2 a copy of the array of
-	employees is created, rotated and zipped with the array of
-	employees, thus creating an array of pairs of employees. But if
-	the ammount of employees is 2 or below, the array of pairs is made
-	by putting the array of employees inside another array.
-	2. This array is mapped through to create a hash.
-		1. The keys of the hash are the concatenation of the pair of
-		employees' names with a dash sign character.
-		2. The values of the hash are the count of the times they
-		coincided. The schedule of the first employee of the pair is
-		iterated though, if the second employee attended the day the
-		first employee did and the range of hours they attended that
-		day overlaps, the counter goes up by 1.
-	3. At the end, for each coincidence it is printing the employees'
-	pair names, followed by a colon and the amount of times they were
-	in office at the same time.
+2. If the ammount of employees is over 2 a copy of the array of
+employees is created, rotated and zipped with the array of employees,
+thus creating an array of pairs of employees. But if the ammount of
+employees is 2 or below, the array of pairs is made by putting the
+array of employees inside another array.
+3. The array of pairs is mapped through returning a hash containing
+the the pair of employees names contatenated with a dash and the times
+they have coincided.
+	1. The keys of the hash are the concatenation of the pair of
+	employees' names with a dash sign character.
+	2. The values of the hash are the count of the times they
+	coincided. The schedule of the first employee of the pair is
+	iterated though, if the second employee attended the day the
+	first employee did and the range of hours they attended that
+	day overlaps, the counter goes up by 1.
+4. At the end, for each coincidence it is printing the employees' pair
+names, followed by a colon and the amount of times they concided in
+office.
 
 ## Approach
 
@@ -76,7 +74,7 @@ capabilities.
 ## How to run
 
 The program is a Ruby script so the only thing needed to run it is a
-Ruby interpreter.
+[Ruby interpreter](https://www.ruby-lang.org/).
 
 **command:**
 
