@@ -79,10 +79,10 @@ The program is a Ruby script so the only thing needed to run it is a
 
 **example:**
 
-	$ ./src/exercise.rb examples/1.txt
+	$ ./src/exercise.rb examples/example_1.txt
 
 If the Ruby interpreted failed for some reason or the file wasn't
 executable it could be run this way instead:
 
-	$ ruby src/exercise.rb examples/1.txt
+	$ ruby src/exercise.rb examples/example_1.txt
 
