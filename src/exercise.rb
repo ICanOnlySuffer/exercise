@@ -37,9 +37,7 @@ EMPLOYEES = INPUT.lines.map do |line|
 end
 
 # create and array of pairs of employees
-PAIRS = EMPLOYEES.size > 2 ? (
-	EMPLOYEES.rotate.zip EMPLOYEES
-) : [EMPLOYEES]
+PAIRS = EMPLOYEES.combination 2
 
 # map though the pairs and create a hash with the employees and the
 # times they coincided in office

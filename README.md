@@ -45,11 +45,8 @@ hours they attended containing the ranges of hours for each day.
 	split by the dash sign character into the the starting hour and
 	ending hour, these are converted to integers and a range is
 	created between these two.
-2. If the ammount of employees is over 2 a copy of the array of
-employees is created, rotated and zipped with the array of employees,
-thus creating an array of pairs of employees. But if the ammount of
-employees is 2 or below, the array of pairs is made by putting the
-array of employees inside another array.
+2. The pairs of employes is created as combination of size 2 of the
+array of employees.
 3. The array of pairs is mapped through returning a hash containing
 the the pair of employees names contatenated with a dash and the times
 they have coincided.
