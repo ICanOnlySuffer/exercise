@@ -32,9 +32,9 @@ coincided in office as values.
 
 **in detail:**
 
-1. The program reads the text file and parses its lines as structures
-of employees, which are made by their names and a hash of the days and
-hours they attended containing the ranges of hours for each day.
+1. The program reads a text file and parses its lines as structures of
+employees, which are composed by their names and a hash of the days
+and hours they attended containing the ranges of hours for each day.
 	1. The name of the employee and the schedule are separated into
 	different variables by an equal sign character.
 	2. The name of the employee is left as is.
@@ -48,7 +48,7 @@ hours they attended containing the ranges of hours for each day.
 2. The pairs of employes is created as combination of size 2 of the
 array of employees.
 3. The array of pairs is mapped through returning a hash containing
-the the pair of employees names contatenated with a dash and the times
+the pair of employees names contatenated with a dash and the times
 they have coincided.
 	1. The keys of the hash are the concatenation of the pair of
 	employees' names with a dash sign character.
