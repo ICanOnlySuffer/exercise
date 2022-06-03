@@ -63,8 +63,8 @@ office.
 
 ## Approach
 
-My approach was designing the program around the Employee class,
-arrays and hashes to ease its reading write less. That is why I chose
+My approach was designing the program around the Employee class, as
+well as arrays and hashes to ease its reading. That is why I chose
 Ruby as it is a fully OOP language with great array and hash mapping
 capabilities.
 
